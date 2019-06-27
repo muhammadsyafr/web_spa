@@ -1,0 +1,147 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        position: relative;
+        background-color: black;
+        height: 310px;
+        min-height: 310px;
+        width: 100%;
+   }
+    header .overlay-content {
+        position: relative;
+        top: 200px!important;
+        left: 0;
+        width: 100%;
+        background-color: #25313F;
+        opacity: 0.7;
+        z-index: 1;
+        padding-top: 20px;
+   }
+    .text-title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700!important;
+        font-size: 20px;
+   }
+    .text-subtitle {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700!important;
+        font-size: 18px;
+   }
+    .index-title {
+        font-family: 'Candal', sans-serif;
+        font-weight: 600!important;
+        font-size:22px!important;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+   }
+    .img-title {
+        font-size: 22px;
+        margin-top: 5px;
+   }
+    .img-content {
+        padding: 0px 0px 0px 0px;
+   }
+    .img-col-content {
+        width: 190px;
+        text-align: center;
+   }
+    .col {
+        text-align: center;
+   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        position: relative;
+        background-color: black;
+        height: 310px;
+        min-height: 310px;
+        width: 100%;
+   }
+    header .overlay-content {
+        position: relative;
+        top: 200px!important;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #25313F;
+        opacity: 0.7;
+        z-index: 1;
+        padding-top: 20px;
+   }
+    .text-title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700!important;
+        font-size: 25px;
+   }
+    .index-title {
+        font-family: 'Candal', sans-serif;
+        font-weight: 600!important;
+        font-size: 35px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+   }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col {
+        text-align: center;
+   }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img-title {
+        margin-top: 120px;
+   }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header {
+        position: relative;
+        background-color: black;
+        height: 60vh;
+        min-height: 310px;
+        width: 100%;
+   }
+    header .overlay-content {
+        position: relative;
+        top: 280px!important;
+        left: 0;
+        height: 60vh;
+        width: 100%;
+        background-color: #25313F;
+        opacity: 0.7;
+        z-index: 1;
+        padding-top: 20px;
+   }
+    .text-title {
+       /* font-family: 'Jua', sans-serif;
+        */
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700!important;
+        font-size: 30px;
+   }
+    .text-subtitle {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700!important;
+        font-size: 22px;
+   }
+    .index-title {
+        font-family: 'Candal', sans-serif;
+        font-weight: 600!important;
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+   }
+    .img-content {
+        padding: 0px 100px 0px 100px;
+   }
+    .img-title {
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-family: 'Baloo', cursive;
+        text-align: right;
+        margin-top: 120px;
+   }
+}
